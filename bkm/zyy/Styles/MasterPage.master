@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Styles_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 1146px;
+        }
+        .style3
+        {
+            height: 20px;
+            font-family: 新宋体;
+            font-style: italic;
+            font-weight: bold;
+            font-size: xx-large;
+            background-color: #CCFFFF;
+        }
+        .style8
+        {
+            text-align: center;
+            color: #FF6600;
+            font-family: 隶书;
+            font-style: normal;
+            background-color: #CCFFFF;
+        }
+        .style9
+        {
+            height: 20px;
+            font-family: 隶书;
+            font-weight: bold;
+            font-size: xx-large;
+            background-color: #FFFFFF;
+            letter-spacing: 3px;
+        }
+        .style11
+        {
+            text-align: center;
+            color: #FF6600;
+        }
+        .style17
+        {
+            width: 345px;
+        }
+        .style22
+        {
+            color: #0066FF;
+            width: 345px;
+        }
+        .style24
+        {
+            width: 184px;
+        }
+        .style25
+        {
+            font-size: small;
+        }
+        .style27
+        {
+            font-family: 宋体;
+            font-size: small;
+        }
+        .style28
+        {
+            width: 302px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <table class="style1">
+            <tr>
+                <td class="style3" colspan="3">
+                    <p class="style8">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/图片/捕获.PNG" Height="82px" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="style9" colspan="3">
+                    <p class="style11">
+                        <asp:Image ID="Image3" runat="server" ImageUrl="~/图片/biaoti.PNG" 
+                            Height="89px" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="style24" rowspan="2">
+                    <asp:Image ID="Image4" runat="server" Height="136px" ImageUrl="~/图片/cc.jpg" 
+                        Width="167px" />
+                </td>
+                <td class="style28" rowspan="2">
+                    <asp:TreeView ID="TreeView1" runat="server" Height="90px" 
+                        style="font-size: medium; text-align: center" Width="112px">
+                        <Nodes>
+                            <asp:TreeNode Text="用户信息" Value="用户信息">
+                                <asp:TreeNode Text="用户注册" Value="用户注册"></asp:TreeNode>
+                                <asp:TreeNode Text="用户登陆" Value="用户登陆"></asp:TreeNode>
+                                <asp:TreeNode Text="用户信息查询" Value="用户信息查询"></asp:TreeNode>
+                                <asp:TreeNode Text="用户信息修改" Value="用户信息修改"></asp:TreeNode>
+                                <asp:TreeNode Text="用户密码修改" Value="用户密码修改"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="宝可梦信息" Value="宝可梦信息">
+                                <asp:TreeNode Text="宝可梦信息录入" Value="宝可梦信息录入"></asp:TreeNode>
+                                <asp:TreeNode Text="宝可梦信息更改" Value="宝可梦信息更改"></asp:TreeNode>
+                                <asp:TreeNode Text="宝可梦信息查询（用户）" Value="宝可梦信息查询（用户）"></asp:TreeNode>
+                                <asp:TreeNode Text="宝可梦信息查询（馆主）" Value="宝可梦信息查询（馆主）"></asp:TreeNode>
+                            </asp:TreeNode>
+                        </Nodes>
+                    </asp:TreeView>
+                </td>
+                <td class="style17">
+                 <asp:ContentPlaceHolder id="MainContent" runat="server">   </asp:ContentPlaceHolder>
+
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style22">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p align="left" class="MsoNormal">
+                        <span class="style25" 
+                            style="font-family: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">
+                        版权所有：赵、王、徐</span><span lang="EN-US" 
+                            style="font-size: 12.0pt; font-family: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt"><span 
+                            style="mso-spacerun:yes">&nbsp; </span></span>
+                    </p>
+                    <p align="left" class="style27" 
+                        style="mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">
+                        本网站官方客服<span lang="EN-US">QQ</span>：<span lang="EN-US">1234567891</span>、<span 
+                            lang="EN-US">9876543219<o:p></o:p></span></p>
+                    <p align="left" class="MsoNormal">
+                        <span class="style25" 
+                            style="font-family: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">
+                        欢迎用户来反馈问题。登陆过程中发生问题，或者忘记密码，请提供联系官方客服，并提供相关的身份信息证明等，之后的问题就交给我们的馆主大人吧</span><span 
+                            lang="EN-US" 
+                            style="font-size: 12.0pt; font-family: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">!<o:p></o:p></span></p>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>

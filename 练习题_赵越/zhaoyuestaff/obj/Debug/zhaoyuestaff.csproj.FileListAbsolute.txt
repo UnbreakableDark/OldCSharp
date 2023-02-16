@@ -1,0 +1,13 @@
+E:\csharp\zhaoyuestaff\bin\Debug\zhaoyuestaff.exe.config
+E:\csharp\zhaoyuestaff\bin\Debug\zhaoyuestaff.exe
+E:\csharp\zhaoyuestaff\bin\Debug\zhaoyuestaff.pdb
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.csprojAssemblyReference.cache
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.login.resources
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.Properties.Resources.resources
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.csproj.GenerateResource.cache
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.csproj.CoreCompileInputs.cache
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.exe
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.pdb
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.Firstpage.resources
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.Register.resources
+E:\csharp\zhaoyuestaff\obj\Debug\zhaoyuestaff.Change.resources
